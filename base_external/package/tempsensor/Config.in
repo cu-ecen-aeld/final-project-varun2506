@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_TEMPSENSOR
+	bool "tempsensor"
+	help
+	  Includes i2c interfaced code for temperature sensor tmp102
