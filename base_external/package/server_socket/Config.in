@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_SERVER_SOCKET
+	bool "server_socket"
+	help
+	  Contains code for socket applications

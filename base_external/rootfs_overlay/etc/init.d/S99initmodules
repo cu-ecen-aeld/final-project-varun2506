@@ -1,0 +1,32 @@
+#!/bin/sh
+
+case "$1" in
+  start)
+    echo "Loading i2c modules"
+    modprobe i2c-bcm2835
+    modprobe i2c-dev
+    i2cdetect -y 1
+    echo "i2c modules loaded succesfully"
+    cd /usr/bin
+    ./i2ctemp -E &
+    
+    cd /etc/face-rec-sample
+    rm -rf names.txt temp.txt
+    touch names.txt temp.txt
+    chmod +rwx names.txt temp.txt
+    python3 face_recog.py -E &
+    echo "Facial recognition started..........."
+    
+    cd /usr/bin
+    ./socket_server -E &
+    echo "server socket opened"
+    
+    ;;
+    stop)
+    ;;
+  *)
+    echo "Usage: $0 {start|stop}"
+  exit 1
+esac
+
+exit 0

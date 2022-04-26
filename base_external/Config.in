@@ -1,4 +1,4 @@
-source "$BR2_EXTERNAL_project_base_PATH/package/aesd-cam/Config.in"
+source "$BR2_EXTERNAL_project_base_PATH/package/server_socket/Config.in"
 source "$BR2_EXTERNAL_project_base_PATH/package/distro/Config.in"
 source "$BR2_EXTERNAL_project_base_PATH/package/dlib/Config.in"
 source "$BR2_EXTERNAL_project_base_PATH/package/pyparsing/Config.in"
