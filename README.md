@@ -10,37 +10,17 @@ Click [here](https://github.com/cu-ecen-aeld/final-project-Amey2904dash/wiki/Pro
 
 Click [here](https://github.com/cu-ecen-aeld/final-project-Amey2904dash/wiki/Final-Project-Schedule-Page) for Project Schedule page.
 
+# Student Video Demos
+
+Click [here](https://github.com/cu-ecen-aeld/final-project-Amey2904dash/wiki/Tanmay's-Final-Project-Video) for Tanmay's Final Project Video.
+
+Click [here](https://github.com/cu-ecen-aeld/final-project-Amey2904dash/wiki/Varun's-Final-Project-Video) for Varun's Final Project Video.
+
+Click [here](https://github.com/cu-ecen-aeld/final-project-Amey2904dash/wiki/Amey's-Final-Project-Video) for Amey's Final Project Video.
+
+
 # Team Members
 
 * Tanmay Kothale (tanmay.kothale@colorado.edu)
 * Varun Mehta (varun.mehta@colorado.edu)
 * Amey Dashaputre (amey.dashaputre@colorado.edu)
-
-
-# buildroot-hw-rpi-opencv-br-2020.02
-
-## Project Description
-This is an example buildroot project for OpenCV 3 on hardware platform Raspberry Pi 4.
-<br/>
-
-## How to use it
-1. git clone the repository
-2. Follow the instruction on [wiki page]()
-<br/>
-
-**Hardware Requirement:**<br/>
-1. Raspberry Pi 4 (you can try other platform)
-2. Keyboard
-3. UVC camera (I used Logitech C270 webcam)
-4. Display(Optional, you can view image directly on Raspberry Pi this way)<
-<br/>
-
-**Build Platform**<br/>
-Ubuntu 18.04(tested)<br/>
-Ubuntu 16.04(haven't tested yet)<br/>
-<br/>
-**Target Platform**<br/>
-Raspberry Pi 4 B (tested)<br/>
-Raspberry Pi 3 B (haven't tested yet)<br/>
-<br/>
-
