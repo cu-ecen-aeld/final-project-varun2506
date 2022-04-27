@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference my camera app
-SERVER_SOCKET_VERSION = '2233d3963383f2b258f63515c13cf481c154b87b'
+SERVER_SOCKET_VERSION = 'd2fd3efc182fe83b9f0ea5441c3202ba2401d8b3'
 SERVER_SOCKET_SITE = 'git@github.com:cu-ecen-aeld/final-project-Amey2904dash.git'
 SERVER_SOCKET_SITE_METHOD = git
 
